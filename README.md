@@ -10,6 +10,7 @@ To install the application locally, follow these steps.
     ```
 2. Copy the .env.example file into a .env file
     ```
+    cd serveradmin
     cp .env.example .env
     ```
 3. Open the .env file in a text editor and edit it with the correct credentials for the database access
