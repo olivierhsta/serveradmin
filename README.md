@@ -27,13 +27,18 @@ To install the application locally, follow these steps.
     ```
     composer install
     ```
-5. Seed the database with some dummy data
+5. Set up the database, seed the database with some dummy data and generate the app key
     ```
+    php artisan migrate
     php artisan db:seed
+    php artisan key:generate
     ```
 6. Start the local server
     ```
     php artisan serve
     ```
     
-The website should now be accessible from the given url.
+The website should now be accessible from the given url.  The user default credentials to enter the app are the followings
+
+- email : user@example.org
+- password : password
