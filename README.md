@@ -1,6 +1,6 @@
 ## Installation
 
-This program is using the [Laravel](https://laravel.com/docs/6.x#installing-laravel) framework with a MySQL database, so both needs to be installed for the application to run.
+This program is using the [Laravel](https://laravel.com/docs/6.x#installing-laravel) framework with a working database instance, so both needs to be installed for the application to run.
 
 To install the application locally, follow these steps.
 
